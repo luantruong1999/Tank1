@@ -3,20 +3,23 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Gach
+  - Sat
+  - Bullet
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Enemy
+  - BulletEnemy
+  - BulletPlayer
+  - Effect
+  - Enviroment
+  - PowerUp
   - 
   - 
   - 
@@ -40,4 +43,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 2788859665
+    locked: 0
+  - name: Gach
+    uniqueID: 2972908263
+    locked: 0
+  - name: Base
+    uniqueID: 2269030217
+    locked: 0
+  - name: Tank
+    uniqueID: 3489753417
+    locked: 0
+  - name: Eff
+    uniqueID: 142034363
     locked: 0
